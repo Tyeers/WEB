@@ -1,0 +1,5 @@
+.i-cap::first-letter {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+}
