@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Latihan Formulir</h1>
+    <form>
+        <fieldset style="width: 40rem; margin: 0px auto;">
+            <legend style="text-align: center;">Input Data</legend>
+            <p>
+                <label>Nama</label>
+                <label style="margin-left: 5.8rem;">:</label>
+                <input type="text" name="Nama" placeholder="Masukkan Nama Lengkap"><br>
+            </p>
+            <p>
+                <label>Password</label>
+                <label style="margin-left: 4.3rem;">:</label>
+                <input type="password" name="Password" placeholder=""><br> 
+            </p>
+            <p>
+                <label>Tanggal Lahir</label>
+                <label style="margin-left: 2.5rem;">:</label>
+                <input type="date" name="Tanggal Lahir"><br>
+            </p>
+            <form>
+                <label>Jenis Kelamin</label>
+                <label style="margin-left: 2.4rem;">:</label>
+                <input type="radio" id="JK" name="kel" value="Laki"> Laki Laki
+                <input type="radio" id="JK" name="kel" value="Perempuan"> Perempuan 
+            </form>
+            <p>
+                <label>Nomor Telepon</label>
+                <label style="margin-left: 1.8rem;">:</label>
+                <input type="text" name="NoTelp" placeholder="Masukkan Nomor Telekpon"><br>
+            </p>
+            <p>
+                <label> Asal Kota</label>
+                <label style="margin-left: 4rem;">:</label>
+                <select name="" id="">
+                    <option value="Purwokerto">Purwokerto</option>
+                    <option value="Jawa">Jawa</option>
+                    <option value="Sulawesi">Sulawesi</option>
+                    <option value="Kalimantan">Kalimantan</option>
+                    <option value="Sumatra">Sumatra</option>
+                </select>
+            </p>
+            <form>
+                <label>Alamat</label>
+                <label style="margin-left: 5rem;">:</label>
+                <textarea cols="50" rows="20" placeholder="Silahkan katakan isi alamat"></textarea>
+            </form>
+            <form>
+                <label>Hobi</label>
+                <label style="margin-left: 6rem;">:</label>
+                <input type="checkbox" name="hobi" id="buku">Membaca buku
+                <input type="checkbox" name="hobi" checked id="Menulis"> Menulis
+                <input type="checkbox" name="hobi" id="Memancing"> Memancing
+            </form>
+            <form>
+                <label>Makanan favorit</label>
+                <label style="margin-left: 1.4rem;">:</label>
+                <input type="text">
+            </form>
+            <input style="margin-left: 33rem;" type="button" value="Reset">
+            <input type="button" value="Submit">
+        </fieldset>
+    </form><br>
+    <a style="margin-left: 43rem;" href="index.html"><input type="button" value="Next Page"></a>
+</body>
+</html>
